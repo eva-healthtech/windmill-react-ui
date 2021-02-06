@@ -1,5 +1,4 @@
 export default {
-  // Alert
   alert: {
     base: 'p-4 pl-12 relative rounded-lg leading-5',
     withClose: 'pr-12',
@@ -23,8 +22,7 @@ export default {
   },
   // TableFooter
   tableFooter: {
-    base:
-      'px-4 py-3 border-t dark:border-gray-700 bg-gray-50 text-gray-500 dark:text-gray-400 dark:bg-gray-800',
+    base: 'px-4 py-3 border-t dark:border-gray-700 bg-gray-50 text-gray-500 dark:text-gray-400 dark:bg-gray-800', 
   },
   // TableRow
   tableRow: {
@@ -37,7 +35,7 @@ export default {
   },
   // TableContainer
   tableContainer: {
-    base: 'w-full overflow-hidden rounded-lg ring-1 ring-black ring-opacity-5',
+    base: 'w-full overflow-hidden rounded-lg border',
   },
   // TableCell
   tableCell: {
@@ -45,8 +43,7 @@ export default {
   },
   // TableBody
   tableBody: {
-    base:
-      'bg-white divide-y dark:divide-gray-700 dark:bg-gray-800 text-gray-700 dark:text-gray-400',
+    base: 'bg-white divide-y dark:divide-gray-700 dark:bg-gray-800 text-gray-700 dark:text-gray-400',
   },
   // DropdownItem
   // this is the <li> that lives inside the Dropdown <ul>
@@ -74,8 +71,7 @@ export default {
   },
   // Modal
   modal: {
-    base:
-      'w-full px-6 py-4 overflow-hidden bg-white rounded-t-lg dark:bg-gray-800 sm:rounded-lg sm:m-4 sm:max-w-xl',
+    base: 'w-full px-6 py-4 overflow-hidden bg-white rounded-t-lg dark:bg-gray-800 sm:rounded-lg sm:m-4 sm:max-w-xl',
   },
   // ModalBody
   modalBody: {
@@ -101,12 +97,11 @@ export default {
   },
   // Backdrop
   backdrop: {
-    base:
-      'fixed inset-0 z-40 flex items-end bg-black bg-opacity-50 sm:items-center sm:justify-center',
+    base: 'fixed inset-0 z-40 flex items-end bg-black bg-opacity-50 sm:items-center sm:justify-center',
   },
   // Textarea
   textarea: {
-    base: 'block w-full text-sm dark:text-gray-300 form-textarea focus:outline-none',
+    base: 'block w-full text-sm dark:text-gray-300 form-textarea focus:outline-none rounded border border-gray-200',
     active:
       'focus:border-purple-400 dark:border-gray-600 dark:focus:border-gray-600 dark:bg-gray-700 dark:focus:ring-gray focus:ring-purple',
     disabled: 'cursor-not-allowed opacity-50 bg-gray-300 dark:bg-gray-800',
@@ -117,7 +112,7 @@ export default {
   },
   // Select
   select: {
-    base: 'block w-full text-sm dark:text-gray-300 focus:outline-none',
+    base: 'block w-full text-sm dark:text-gray-300 focus:outline-none rounded border border-gray-200',
     active:
       'focus:border-purple-400 dark:border-gray-600 dark:bg-gray-700 focus:ring-purple dark:focus:ring-gray dark:focus:border-gray-600',
     select: 'form-select leading-5',
@@ -137,7 +132,8 @@ export default {
   },
   // Input
   input: {
-    base: 'block w-full text-sm focus:outline-none dark:text-gray-300 form-input leading-5',
+    base:
+      'block w-full text-sm focus:outline-none dark:text-gray-300 form-input leading-5 rounded border border-gray-200',
     active:
       'focus:border-purple-400 dark:border-gray-600 focus:ring-purple dark:focus:border-gray-600 dark:focus:ring-gray dark:bg-gray-700',
     disabled: 'cursor-not-allowed opacity-50 bg-gray-300 dark:bg-gray-800',
@@ -158,7 +154,7 @@ export default {
   },
   // Card
   card: {
-    base: 'min-w-0 rounded-lg ring-1 ring-black ring-opacity-5 overflow-hidden',
+    base: 'min-w-0 rounded-lg border border-gray-200 overflow-hidden',
     default: 'bg-white dark:bg-gray-800',
   },
   cardBody: {
@@ -198,8 +194,7 @@ export default {
     },
     outline: {
       base: 'text-gray-600 border-gray-300 border dark:text-gray-400 focus:outline-none',
-      active:
-        'active:bg-transparent hover:border-gray-500 focus:border-gray-500 active:text-gray-500 focus:ring-gray',
+      active: 'active:bg-transparent hover:border-gray-500 focus:border-gray-500 active:text-gray-500 focus:ring-gray',
       disabled: 'opacity-50 cursor-not-allowed bg-gray-300',
     },
     link: {
@@ -213,5 +208,5 @@ export default {
       base:
         'inline-flex items-center cursor-pointer w-full px-2 py-1 text-sm font-medium transition-colors duration-150 rounded-md hover:bg-gray-100 hover:text-gray-800 dark:hover:bg-gray-800 dark:hover:text-gray-200',
     },
-  },
+  }
 }
