@@ -80,3 +80,5 @@ It will start a local server at `localhost:6006` with all components rendered.
 ⚠ Use `npm run cz` instead of `git commit`! It will guide you through some short questions and guarantee that you commit message is standardized.
 
 Commit will also trigger linting and test coverage.
+
+THIS IS A TEST COMMIT
